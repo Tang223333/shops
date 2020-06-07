@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goods.GoodsInfoActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/goods_title_bar"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#EEEEEE">
+
+<!--                商品信息-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="#DCDCDC"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:background="@mipmap/ic_launcher" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="商品详情"
+                        android:textColor="#564c4c" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="商品价格￥："
+                        android:id="@+id/shop_price"
+                        android:textColor="#564c4c" />
+                </LinearLayout>
+            </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--            下边操作栏-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Goods_style"
+                    android:text="联系客服"
+                    android:drawableTop="@mipmap/customer_service"/>
+
+                <TextView
+                    style="@style/Goods_style"
+                    android:text="购物车"
+                    android:drawableTop="@mipmap/shop_cart"/>
+                <TextView
+                    style="@style/Goods_style"
+                    android:text="进店"
+                    android:drawableTop="@mipmap/store"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:background="#ed3f3f"
+                    android:text="立即购买"
+                    android:textColor="#FFFFFF"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="加入购物车"
+                    android:id="@+id/shop_collection"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

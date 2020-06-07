@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+<!--    下面这行数值越大，角位越弯曲-->
+    <corners android:radius="200dp"/>
+    <padding android:bottom="5dp" android:top="5dp" android:left="8dp" android:right="8dp"/>
+
+    <solid android:color="#FFFFFF"/>
+</shape>

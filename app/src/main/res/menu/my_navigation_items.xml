@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/home1"
+        android:title="商城首页"/>
+    <item
+        android:id="@+id/friend"
+        android:icon="@mipmap/friend1"
+        android:title="会话"/>
+    <item
+        android:id="@+id/shop"
+        android:icon="@mipmap/shop1"
+        android:title="购物车"/>
+<!--    <item-->
+<!--        android:id="@+id/search"-->
+<!--        android:icon="@mipmap/search1"-->
+<!--        android:title="搜索"/>-->
+</menu>
